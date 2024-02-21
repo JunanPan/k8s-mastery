@@ -19,7 +19,7 @@ class App extends Component {
         };
     };
 
-    analyzeSentence() {
+    analyzeSentence() { 
         fetch('http://35.196.210.118:30467/sentiment', {
             method: 'POST',
             headers: {
